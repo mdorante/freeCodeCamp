@@ -4,5 +4,14 @@ var myVerb = "ran";
 var myAdverb = "quickly";
 
 // Only change code below this line
-var wordBlanks = "We liked the " + myNoun + " because he was " + myAdjective + " and he " + myVerb + " very " + myAdverb + "."; // Change this line
+var wordBlanks =
+  "We liked the " +
+  myNoun +
+  " because he was " +
+  myAdjective +
+  " and he " +
+  myVerb +
+  " very " +
+  myAdverb +
+  "."; // Change this line
 // Only change code above this line

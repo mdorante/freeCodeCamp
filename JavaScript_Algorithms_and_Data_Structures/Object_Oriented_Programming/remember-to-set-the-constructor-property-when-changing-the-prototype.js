@@ -7,5 +7,5 @@ Dog.prototype = {
   constructor: Dog,
   numLegs: 4,
   eat: () => console.log("nom nom nom"),
-  describe: () => console.log("My name is " + this.name)
+  describe: () => console.log("My name is " + this.name),
 };

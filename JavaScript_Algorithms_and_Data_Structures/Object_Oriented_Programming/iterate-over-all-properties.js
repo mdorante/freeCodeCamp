@@ -18,5 +18,5 @@ for (let property in beagle) {
   }
 }
 
-console.log(ownProps) // [ 'name' ]
-console.log(prototypeProps) // [ 'numLegs' ]
+console.log(ownProps); // [ 'name' ]
+console.log(prototypeProps); // [ 'numLegs' ]

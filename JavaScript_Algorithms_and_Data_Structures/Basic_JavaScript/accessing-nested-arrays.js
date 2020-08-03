@@ -2,20 +2,12 @@
 var myPlants = [
   {
     type: "flowers",
-    list: [
-      "rose",
-      "tulip",
-      "dandelion"
-    ]
+    list: ["rose", "tulip", "dandelion"],
   },
   {
     type: "trees",
-    list: [
-      "fir",
-      "pine",
-      "birch"
-    ]
-  }
+    list: ["fir", "pine", "birch"],
+  },
 ];
 
 /*
@@ -24,4 +16,4 @@ Retrieve the second tree from the variable myPlants using object dot and array b
 
 // Only change code below this line
 
-var secondTree = myPlants[1].list[1]; 
+var secondTree = myPlants[1].list[1];

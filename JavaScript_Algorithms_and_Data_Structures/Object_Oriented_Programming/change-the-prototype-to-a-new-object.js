@@ -6,5 +6,5 @@ Dog.prototype = {
   // Only change code below this line
   numLegs: 4,
   eat: () => console.log("yum yum"),
-  describe: () => console.log(`My name is ${this.name}.`)
+  describe: () => console.log(`My name is ${this.name}.`),
 };

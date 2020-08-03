@@ -1,6 +1,7 @@
 function chunkArrayInGroups(arr, size) {
   let newArr = [];
-  for (let i = 0; i < arr.length; i += size) { // generate indices we need in order to correctly slice arr, varies depending on size
+  for (let i = 0; i < arr.length; i += size) {
+    // generate indices we need in order to correctly slice arr, varies depending on size
     newArr.push(arr.slice(i, i + size));
   }
   return newArr;

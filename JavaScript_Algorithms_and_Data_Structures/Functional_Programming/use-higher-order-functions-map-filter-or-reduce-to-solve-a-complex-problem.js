@@ -1,6 +1,8 @@
 const squareList = (arr) => {
   // Only change code below this line
-  return arr.filter(num => num > 0 && Number.isInteger(num)).map(num => num * num);
+  return arr
+    .filter((num) => num > 0 && Number.isInteger(num))
+    .map((num) => num * num);
   // Only change code above this line
 };
 

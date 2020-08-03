@@ -6,4 +6,4 @@ function rangeOfNumbers(startNum, endNum) {
     countArray.push(endNum);
     return countArray;
   }
-};
+}

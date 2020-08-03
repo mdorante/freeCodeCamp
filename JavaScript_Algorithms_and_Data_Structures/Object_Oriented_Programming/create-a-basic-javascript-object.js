@@ -1,4 +1,4 @@
 let dog = {
   name: "Scooby",
-  numLegs: 4
+  numLegs: 4,
 };

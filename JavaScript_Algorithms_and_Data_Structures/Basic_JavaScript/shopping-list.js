@@ -3,5 +3,5 @@ var myList = [
   ["Lollipop", 30],
   ["Chewing gum", 100],
   ["Mint", 187],
-  ["Slim Jim", 98]
-  ];
+  ["Slim Jim", 98],
+];

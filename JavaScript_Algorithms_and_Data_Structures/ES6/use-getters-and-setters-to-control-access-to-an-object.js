@@ -5,7 +5,7 @@ class Thermostat {
   }
 
   get temperature() {
-    return (5/9) * (this._fahrenheit - 32);
+    return (5 / 9) * (this._fahrenheit - 32);
   }
 
   set temperature(newTemperature) {

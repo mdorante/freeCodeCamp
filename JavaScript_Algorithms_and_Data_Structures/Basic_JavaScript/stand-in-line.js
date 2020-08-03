@@ -4,12 +4,10 @@ function nextInLine(arr, item) {
   var shifted = arr.shift();
   return shifted;
   // Only change code above this line
-  
-
 }
 
 // Setup
-var testArr = [1,2,3,4,5];
+var testArr = [1, 2, 3, 4, 5];
 
 // Display code
 console.log("Before: " + JSON.stringify(testArr));

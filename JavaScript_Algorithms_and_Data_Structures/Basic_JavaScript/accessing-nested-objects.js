@@ -1,14 +1,14 @@
 // Setup
 var myStorage = {
-  "car": {
-    "inside": {
+  car: {
+    inside: {
       "glove box": "maps",
-      "passenger seat": "crumbs"
-     },
-    "outside": {
-      "trunk": "jack"
-    }
-  }
+      "passenger seat": "crumbs",
+    },
+    outside: {
+      trunk: "jack",
+    },
+  },
 };
 
 /*

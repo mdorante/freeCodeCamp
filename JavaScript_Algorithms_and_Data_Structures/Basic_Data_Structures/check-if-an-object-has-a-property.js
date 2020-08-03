@@ -1,25 +1,25 @@
 let users = {
   Alan: {
     age: 27,
-    online: true
+    online: true,
   },
   Jeff: {
     age: 32,
-    online: true
+    online: true,
   },
   Sarah: {
     age: 48,
-    online: true
+    online: true,
   },
   Ryan: {
     age: 19,
-    online: true
-  }
+    online: true,
+  },
 };
 
 function isEveryoneHere(obj) {
   // Only change code below this line
-  return ['Alan', 'Jeff', 'Sarah', 'Ryan'].every(name => name in obj);
+  return ["Alan", "Jeff", "Sarah", "Ryan"].every((name) => name in obj);
   // Only change code above this line
 }
 

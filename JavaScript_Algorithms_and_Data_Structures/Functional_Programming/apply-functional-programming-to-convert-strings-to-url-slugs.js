@@ -7,9 +7,8 @@ function urlSlug(title) {
     .trim()
     .toLowerCase()
     .split(/\W/)
-    .filter(word => word !== "")
+    .filter((word) => word !== "")
     .join("-");
-
 }
 // Only change code above this line
 console.log(urlSlug(globalTitle)); // winter-is-coming

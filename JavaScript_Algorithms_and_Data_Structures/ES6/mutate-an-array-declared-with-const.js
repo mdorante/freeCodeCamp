@@ -1,6 +1,6 @@
 const s = [5, 7, 2];
 function editInPlace() {
-  'use strict';
+  "use strict";
   // Only change code below this line
   s[0] = 2;
   s[1] = 5;

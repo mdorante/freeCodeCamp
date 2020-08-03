@@ -19,7 +19,6 @@ function sequentialSizes(val) {
       break;
   }
 
-
   // Only change code above this line
   return answer;
 }

@@ -4,4 +4,4 @@ function Dog() {
   this.numLegs = 4;
 }
 // Only change code below this line
-let hound = new Dog()
+let hound = new Dog();

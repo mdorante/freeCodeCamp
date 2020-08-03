@@ -1,6 +1,6 @@
-function Animal() { }
-function Bird() { }
-function Dog() { }
+function Animal() {}
+function Bird() {}
+function Dog() {}
 
 Bird.prototype = Object.create(Animal.prototype);
 Dog.prototype = Object.create(Animal.prototype);
@@ -12,5 +12,5 @@ Dog.prototype.constructor = Dog;
 let duck = new Bird();
 let beagle = new Dog();
 
-console.log(duck.constructor) // [Function: Bird]
-console.log(beagle.constructor) // [Function: Dog]
+console.log(duck.constructor); // [Function: Bird]
+console.log(beagle.constructor); // [Function: Dog]
