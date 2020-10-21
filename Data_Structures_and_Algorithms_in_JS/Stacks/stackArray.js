@@ -2,13 +2,12 @@
 // We're going to find words that are palindromes (spelled the same forwards and backwards)
 
 // this is going to be the stack!
-let letters = [];
+const letters = [];
 
-let word = "racecar";
-
+const word = "racecar";
 let reverseWord = "";
 
-// push each letter from word into the stack
+// push each letter in word into the stack
 word.split("").forEach((x) => letters.push(x));
 
 // pop each item off the end of the stack into reverseWord
