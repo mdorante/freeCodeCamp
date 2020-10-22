@@ -1,4 +1,4 @@
-import { mySet } from "./setImplementation.js";
+import { mySet } from "./set.js";
 
 function testAdd() {
   const set = new mySet();
