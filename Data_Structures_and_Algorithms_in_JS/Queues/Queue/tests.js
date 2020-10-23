@@ -1,4 +1,4 @@
-import { Queue } from "./queueArray.js";
+import { Queue } from "./queue.js";
 
 function testEnqueue() {
   const queue = new Queue();
@@ -57,6 +57,7 @@ function testFront() {
 function testSize() {
   const queue = new Queue();
 
+  queue.print();
   console.log(`Size before adding items: ${queue.size()}`);
 
   queue.enqueue("a");
@@ -64,7 +65,8 @@ function testSize() {
   queue.enqueue("c");
   queue.enqueue("d");
 
-  console.log(`Size after adding 4 items: ${queue.size()}`);
+  queue.print();
+  console.log(`Size after adding items: ${queue.size()}`);
 }
 
 function testIsEmpty() {
@@ -73,8 +75,13 @@ function testIsEmpty() {
 
   queue2.enqueue(4);
 
+  console.log("Queue 1:");
+  queue1.print();
+
   if (queue1.isEmpty()) console.log("queue1 is empty");
 
+  console.log("\nQueue 2:");
+  queue2.print();
   if (!queue2.isEmpty()) console.log("queue2 is not empty");
 }
 

@@ -14,19 +14,19 @@ export class Queue {
     console.log(this.collection);
   }
 
-  // puts an item at the beginning of the queue
+  // puts an item at the end of the queue
   enqueue(item) {
-    return this.collection.unshift(item);
+    return this.collection.push(item);
   }
 
-  // takes an item out of the end of the queue
+  // takes an item out of the beginning of the queue
   dequeue() {
-    return this.collection.pop();
+    return this.collection.shift();
   }
 
   // returns the item that is at the front of the queue (the first item that will leave the queue) without removing it
   front() {
-    return this.collection[this.collection.length - 1];
+    return this.collection[0];
   }
 
   size() {
