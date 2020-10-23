@@ -15,13 +15,13 @@ export class priorityQueue {
     console.log(this.collection);
   }
 
-  // puts an item at the beginning of the queue (depending on its priority)
+  // puts an item at the end of the queue (depending on its priority)
   enqueue(item) {
     if (this.isEmpty()) this.collection.push(item);
     else {
       let added = false;
 
-      // searches for the first item with a higher priority level and inserts the new item in that position
+      // searches for the first item with a higher priority level and inserts the new item in that position (before the item with the higher priority)
       for (let i = 0; i < this.collection.length; i++) {
         if (item[1] < this.collection[i][1]) {
           this.collection.splice(i, 0, item);
@@ -34,7 +34,7 @@ export class priorityQueue {
     }
   }
 
-  // takes an item out of the end of the queue
+  // takes an item out of the front of the queue
   dequeue() {
     return this.collection.shift()[0];
   }
