@@ -1,0 +1,3 @@
+[submodule "Certifications/APIs_and_Microservices/Managing_Packages_with_npm"]
+	path = Certifications/APIs_and_Microservices/Managing_Packages_with_npm
+	url = git@github.com:mdorante/boilerplate-npm.git
