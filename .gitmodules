@@ -7,3 +7,6 @@
 [submodule "Certifications/APIs_and_Microservices/MongoDB_and_Mongoose"]
 	path = Certifications/APIs_and_Microservices/MongoDB_and_Mongoose
 	url = git@github.com:mdorante/boilerplate-mongomongoose.git
+[submodule "Certifications/APIs_and_Microservices/Projects/Timestamp_Microservice"]
+	path = Certifications/APIs_and_Microservices/Projects/Timestamp_Microservice
+	url = git@github.com:mdorante/boilerplate-project-timestamp.git
