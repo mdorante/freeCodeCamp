@@ -1,4 +1,5 @@
 *.vscode/
 *node_modules/
 *package-lock.json
+*__pycache__/
 *Certifications/JavaScript_Algorithms_and_Data_Structures/test.js
